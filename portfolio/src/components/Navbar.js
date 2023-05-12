@@ -1,3 +1,5 @@
+import { useState } from "react";
+import { FaBars } from "react-icons/fa";
 
 export const Logo = () => {
     return (
@@ -6,23 +8,32 @@ export const Logo = () => {
         </div>
     )
 }
+
 export const Nav = () => {
+    const [isToogle, setisToogle] = useState(true)
+    const handleClick = () => {
+        setisToogle(!isToogle)
+    }
     return (
-        <div className="mx-1 ">
-            <ul className="flex font-semibold">
-                <li className="mx-2">Home</li>
-                <li className="mx-2">Skills</li>
-                <li className="mx-2">projects</li>
-                <li className="mx-2">contact</li>
-            </ul>
-        </div>
+        <>
+            <div className={isToogle ? " hidden" : " mx-1  w-full  absolute top-full md:bg-[unset]  md:block md:static md:h-auto md:w-min"}>
+                <ul className="flex justify-center items-center  font-semibold  flex-col md:flex-row">
+                    <li className="mx-2 my-2 md:my-0">Home</li>
+                    <li className="mx-2 my-2 md:my-0">Skills</li>
+                    <li className="mx-2 my-2 md:my-0">projects</li>
+                    <li className="mx-2 my-2 md:my-0">contact</li>
+                </ul>
+            </div>
+            <FaBars className="mx-2 md:hidden cursor-pointer " onClick={handleClick}></FaBars>
+        </>
+
     )
 }
 
 
 const Navbar = () => {
     return (
-        <div className="flex justify-between items-center h-16 bg-slate-300">
+        <div className="flex w-full  justify-between items-center h-16 bg-slate-300 fixed top-0 ">
             <Logo />
             <Nav />
         </div>
