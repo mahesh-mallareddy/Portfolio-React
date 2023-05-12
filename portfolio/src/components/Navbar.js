@@ -16,8 +16,8 @@ export const Nav = () => {
     }
     return (
         <>
-            <div className={isToogle ? " hidden" : " mx-1  w-full  absolute top-full md:bg-[unset]  md:block md:static md:h-auto md:w-min"}>
-                <ul className="flex justify-center items-center  font-semibold  flex-col md:flex-row">
+            <div className={isToogle ? " hidden md:block" : " md:mx-1 bg-[#0a192f] transition-property: all  w-full  absolute top-full md:bg-[unset]  md:static md:h-auto md:w-min"}>
+                <ul className="flex justify-center items-center  font-semibold transition-duration: 150ms flex-col md:flex-row">
                     <li className="mx-2 my-2 md:my-0">Home</li>
                     <li className="mx-2 my-2 md:my-0">Skills</li>
                     <li className="mx-2 my-2 md:my-0">projects</li>
@@ -33,7 +33,7 @@ export const Nav = () => {
 
 const Navbar = () => {
     return (
-        <div className="flex w-full  justify-between items-center h-16 bg-slate-300 fixed top-0 ">
+        <div className="flex w-full  justify-between items-center h-16 bg-[#0a192f] text-gray-300 fixed top-0 ">
             <Logo />
             <Nav />
         </div>
