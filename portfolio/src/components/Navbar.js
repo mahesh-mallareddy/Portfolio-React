@@ -33,7 +33,7 @@ export const Nav = () => {
 
 const Navbar = () => {
     return (
-        <div className="flex w-full  justify-between items-center h-16 bg-[#0a192f] text-gray-300 fixed top-0 ">
+        <div className="flex w-full  justify-between items-center h-16 bg-[#0a192f] text-gray-300 fixed top-0 z-10">
             <Logo />
             <Nav />
         </div>

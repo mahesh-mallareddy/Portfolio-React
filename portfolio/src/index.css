@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+   
+}
+.project_bg{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    opacity: 85%;
+    height: 150px;
+    width: 300px;
+}
+.project_bg:hover {
+   opacity: 65%;
+}
