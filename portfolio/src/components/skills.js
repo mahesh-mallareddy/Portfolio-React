@@ -36,8 +36,8 @@ const Skills = () => {
     }))
 
     return (
-        <div className='w-full h-[90vh] flex flex-col bg-[#0a192fec]'>
-            <h4 className='text-gray-300 mx-14 '>SKILLS</h4>
+        <div className=' w-full h-full flex flex-col bg-[#0a192fec] ' id="skills">
+            <h4 className='text-gray-300 mx-14 font-bold'>SKILLS</h4>
             <p className='text-gray-400 mx-16 my-1' >Technologies I use in my development</p>
             <div className='w-fit mx-auto'>
                 <div className='grid grid-cols-2 sm:grid-cols-3 my-3'>

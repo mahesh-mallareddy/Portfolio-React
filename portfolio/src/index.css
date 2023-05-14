@@ -17,3 +17,17 @@
 .project_bg:hover {
    opacity: 65%;
 }
+
+html,
+body{
+    scroll-behavior: smooth;
+    width: 100% !important;
+    overflow-x: hidden !important;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
