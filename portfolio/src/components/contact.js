@@ -18,15 +18,15 @@ function Contact() {
                 <div
                     data-aos="flip-right"
                     className="rounded-2xl md:w-1/3  text-slate-200 text-center shadow-[#020010]  p-4 md:m-3 m-1 shadow-2xl">
-                    <p className="mb-4">Say Hi, and get in touch with me.</p>
+                    <p className="mb-4">Let’s work together <br/>Say Hi, and get in touch with me.</p>
                     <a href="mailto:maheshmalllareddy@gmail.com">
-                        <button class="bg-name bg-dark text-light transition-all duration-300 font-bold rounded-md py-2 px-4 my-4">
+                        <button className="bg-name bg-dark text-light transition-all duration-300 font-bold rounded-md py-2 px-4 my-4">
                             EMAIL ME
                         </button>
                     </a>
                 </div>
             </div>
-            <h4 className="text-center pt-12 md:inline text-md md:border-l-8  md:px-4 md:py-2 p-12 font-bold text-slate-400 mx-40">
+            <h4 className=" pt-12 md:inline text-md md:border-l-8  md:px-4 md:py-2 p-12 font-bold text-slate-400 sm:mx-40">
                 You can Email above  and contact me or you can reach out to
                 me just by clicking below social media icons
             </h4>

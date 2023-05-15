@@ -16,7 +16,7 @@ export const Nav = () => {
     }
     return (
         <>
-            <div className={isToogle ? " hidden md:block" : " md:mx-1 bg-[#0a192f] transition-property: all  w-full  absolute top-full md:bg-[unset]  md:static md:h-auto md:w-min"}>
+            <div className={isToogle ? " hidden md:block mx-5" : " md:mx-1 bg-[#0a192f]  transition-property: all  w-full  absolute top-full md:bg-[unset]  md:static md:h-auto md:w-min"}>
                 <ul className="flex justify-center items-center  font-semibold transition-duration: 150ms flex-col md:flex-row">
                     <li className="mx-2 my-2 md:my-0 cursor-pointer ">
                     <a href="#">
@@ -41,7 +41,7 @@ export const Nav = () => {
                     </li>
                 </ul>
             </div>
-            <FaBars className="mx-2 md:hidden cursor-pointer " onClick={handleClick}></FaBars>
+            <FaBars className="mx-10 md:hidden cursor-pointer " onClick={handleClick}></FaBars>
         </>
 
     )
