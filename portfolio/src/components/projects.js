@@ -2,9 +2,10 @@ import botstrap from '../assets/projects/tourgo.png'
 import tailwind from '../assets/projects/dinebaffe.png'
 import food_app from '../assets/projects/food-app.png'
 import to_doList from '../assets/projects/to-do-List.png'
-import portfolio from '../assets/projects/dashbord.png'
-import dashbord from '../assets/projects/portfolio.png'
+import portfolio from '../assets/projects/portfolio.png'
+import dashboard from '../assets/projects/dashboard.png'
 import '../index.css'
+
 const Project = () => {
 
     const Projectdata = [
@@ -18,10 +19,10 @@ const Project = () => {
         },    
         {
             name: "visual dashbord",
-            desc: "React Js and chart Js",
-            demo: "https://dinebuffe-onilne-web.netlify.app/",
-            gitcode:"https://github.com/mahesh-mallareddy/dinebaffejs",
-            img: tailwind
+            desc: "MERN  React Js, chart Js, node Js , Mongo DB",
+            demo: "https://visual-dashbord-react.netlify.app",
+            gitcode:"",
+            img: dashboard
         },
         {
             name: "Static food webpage",
