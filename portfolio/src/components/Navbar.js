@@ -3,7 +3,7 @@ import { FaBars } from "react-icons/fa";
 
 export const Logo = () => {
     return (
-        <div className="font-bold">
+        <div className="font-bold mx-20 text-xl">
             <h3>portfolio</h3>
         </div>
     )
@@ -20,23 +20,23 @@ export const Nav = () => {
                 <ul className="flex justify-center items-center  font-semibold transition-duration: 150ms flex-col md:flex-row">
                     <li className="mx-2 my-2 md:my-0 cursor-pointer ">
                     <a href="#">
-                            Home
+                            HOME
                         </a>
                     </li>
 
                     <li className="mx-2 my-2 md:my-0 cursor-pointer">
                         <a href="#skills">
-                            Skills
+                            SKILLS
                         </a>
                     </li>
                     <li className="mx-2 my-2 md:my-0 cursor-pointer">
                         <a href="#projects">
-                            projects
+                            PROJECTS
                         </a>
                     </li>
-                    <li className="mx-2 my-2 md:my-0 cursor-pointer">
+                    <li className="mx-2 my-2 mb-6 md:my-0 cursor-pointer">
                         <a href="#contact">
-                            contact
+                            CONTACT
                         </a>
                     </li>
                 </ul>

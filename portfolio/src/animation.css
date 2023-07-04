@@ -1,0 +1,15 @@
+@keyframes slide-up {
+    0% {
+      visibility: visible;
+      left: 1rem;
+    }
+    100% {
+      visibility: visible;
+      left: 2rem;
+    }
+  }
+  .skills_container{
+    animation: slide-up 1s ease 0.5s;
+  animation-fill-mode: forwards;
+
+  }

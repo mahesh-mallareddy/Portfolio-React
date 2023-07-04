@@ -13,10 +13,10 @@ function Contact() {
                 CONTACT
                 <hr className="w-24 h-1 mx-auto my-6 bg-name rounded border-0"></hr>
             </h4>
-            <div className="flex flex-col-reverse space-y-10 items-center justify-center mx-10 md:flex-row md:space-x-24 md:space-y-0 md:p-4">
+            <div className="flex flex-col-reverse space-y-10 items-center justify-center mx-10 md:flex-row md:space-x-24 md:space-y-0 md:p-4 ">
 
                 <div
-                    data-aos="flip-right"
+                    data-aos="flip-right"    data-aos-duration="1000"
                     className="rounded-2xl md:w-1/3  text-slate-200 text-center shadow-[#020010]  p-4 md:m-3 m-1 shadow-2xl">
                     <p className="mb-4">Let’s work together <br/>Say Hi, and get in touch with me.</p>
                     <a href="mailto:maheshmalllareddy@gmail.com">

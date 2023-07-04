@@ -7,7 +7,10 @@ import tailwind from '../assets/tailwind.png'
 import git from '../assets/git.png'
 import mongo from '../assets/mongo.png'
 import bootstrap from '../assets/bootstrap.png'
-
+import '../animation.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+AOS.init();
 
 
 const Skills = () => {
@@ -43,9 +46,10 @@ const Skills = () => {
             <h4 className='text-gray-300 mx-14 font-bold'>SKILLS</h4>
             <p className='text-gray-400 mx-16 my-1' >Technologies I use in my development</p>
             <div className='w-fit mx-auto'>
-                <div className='grid grid-cols-2 sm:grid-cols-3 my-10' >
+                <div className=' grid grid-cols-2 sm:grid-cols-3 my-10' data-aos="fade-up"
+     data-aos-duration="2000" >
                     {imgList.map((img) => {
-                        return (<div className='mx-5 my-2 sm:my-5 sm:mx-10 shadow-md shadow-[#040c16] hover:scale-110 duration-300' key={img.name}>
+                        return (<div className=' mx-5 my-2 sm:my-5 sm:mx-10 shadow-md shadow-[#040c16] hover:scale-110 duration-300' key={img.name}>
                             < img src={img.pic} className='w-12 md:w-16 mx-8 my-3' />
                             <p className='w-fit mx-auto my-1 text-gray-400'>{img.name}</p>
                         </div>
